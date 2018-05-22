@@ -1,0 +1,316 @@
+/* Add here all your CSS customizations */
+/*Heading inder carousel*/
+.meet_groomers {
+	color: #E91E63;
+	text-align: center;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	padding-top: 2%;
+}
+
+.espanol {
+	text-align: center;
+	color: #E91E63;
+	font-size: 30px;
+}
+
+.work-pics {
+	width: 280px;
+	height: 400px;
+	display: inline;
+	margin: 50px;
+	transform: rotate(10deg)
+}
+
+.work-pics1 {
+	width: 280px;
+	height: 400px;
+	display: inline;
+	margin: 50px;
+	transform: rotate(-10deg)
+}
+
+.home-intro {
+	/*background-color: #323334;*/
+}
+
+
+		/*Meet The Groomers section*/
+/*============================================*/
+/*============================================*/
+
+.groomers_pic {
+	margin-top: 15%;
+	margin-left: 5%;
+	border-radius: 30px;
+}
+
+#groomers {
+	padding-top: 4%;
+}
+
+.groomer_header {
+	text-align: center;
+	color: #E91E63;
+	font-size: 90px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+
+.bios {
+	text-align: right;
+	margin-left: 10%;
+	
+}
+
+.name {
+	font-family: 'Noto Serif', serif;
+	font-size: 50px;
+	color: #E91E63;
+}
+
+.bios p {
+	margin-bottom: 9%;
+	margin-top: 7%;
+	color: rgb(50,51,52);
+	letter-spacing: 2px;
+	line-height: 35px;
+	text-indent: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.counters {
+	margin-top: 3%;
+	padding-bottom: 10%;
+	padding-top: 3%;
+	background-color: #f4f5f5;
+}
+
+.counter label {
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.counter strong {
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.sort-destination-loader:after {
+	cursor: crosshair;
+}
+
+
+/*============================================*/
+
+
+
+
+
+
+				/*Services Section*/
+/*============================================*/
+/*============================================*/
+
+#services {
+	margin-top: 10%;
+	margin-bottom: 7%;
+
+}
+
+#services > h1 {
+	text-align: center;
+}
+
+.service_header {
+	color: #E91E63;
+	font-size: 90px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: 2%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bath {
+	list-style: none;
+	margin-top: 8%;
+	/*border: 1px solid blue;*/
+	text-align: left;
+}
+
+.bath li {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.header_sub {
+	font-size: 15px;
+	color: black;
+	letter-spacing: 1px;
+}
+
+/*=============================================*/
+
+				
+
+				/*Testimonials*/
+/*============================================*/
+/*============================================*/
+
+
+.testimonial_header {
+	color: #E91E63;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#testimonials {
+	margin-bottom: 10%;
+}
+
+/*============================================*/
+
+
+					/*GALLERY*/
+/*============================================*/
+/*============================================*/
+
+.gallery_header {
+	color: #E91E63;
+	font-size: 90px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: 5%;
+}
+
+#gallery h1 {
+	text-align: center;
+}
+
+
+
+					/*CONTACT US*/
+/*============================================*/
+/*============================================*/
+
+#contactus {
+	margin-top: 10%;
+}
+
+.form-control {
+	background-color: rgba(250, 250, 250, .7);
+}
+
+.contact_header {
+	color: #E91E63;
+	font-size: 90px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 3px;
+	line-height: 30px;
+	margin-bottom: 10%;
+	text-align: left;
+}
+
+.heading-primary {
+	color: #E91E63;
+}
+
+.footer1 {
+	background-color: #C51162;
+	width: 100%;
+	height: 70px;
+}
+
+#googlemaps {
+	margin-bottom: 10%;
+}
+
+/*For contact form on header*/
+#float-contact {
+	z-index: 2;
+	float: right;
+	margin-top: -65rem;
+	color: #fff;
+	padding-right: 9rem;
+
+}
+
+.form1 {
+	background-color: rgba(255, 255, 255, .2);
+	border-radius: 10px;
+}
+
+.main1 {
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+	margin-bottom: none;
+	text-align: center;
+	background-image: url(../img/logo.jpeg);
+}
+
+.callnow {
+	background-color: rgba(255, 0,0, .9);
+	border: 2px solid #E91E63;
+	z-index: 3;
+	margin-top: 43rem;
+	width: 50%;
+	height: 10%;
+}
+
+
+				/*MEDIA QUERRIES*/
+/*============================================*/
+/*============================================*/
+
+@media only screen and (max-width: 800px) {
+    #float-contact {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 420px) {
+   .main1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 419px) and (min-width: 313px) {
+   .main1 {
+        display: block;
+    }
+
+    .slider-container {
+    	display: none;
+    }
+
+    #testimonials {
+    	display: none;
+    }
+
+    #services {
+    	margin-top: 10px;
+    }
+
+    #services > h1 {
+    	text-align: center;
+    }
+}
+
