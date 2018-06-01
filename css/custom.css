@@ -186,6 +186,7 @@
 
 #testimonials {
 	margin-bottom: 10%;
+	margin-top: 50px;
 }
 
 blockquote {
@@ -291,7 +292,7 @@ blockquote {
 }
 
 .callnow {
-	background-color: rgba(255, 0,0, .9);
+	background-color: rgba(197, 17, 98, .9);
 	border: 2px solid #E91E63;
 	z-index: 3;
 	margin-top: 43rem;
@@ -316,6 +317,8 @@ blockquote {
     }
 }
 
+
+
 @media screen and (max-width: 419px) and (min-width: 313px) {
    .main1 {
         display: block;
@@ -326,7 +329,7 @@ blockquote {
     }
 
     #testimonials {
-    	display: none;
+    	display: block !important;
     }
 
     #services {
@@ -335,6 +338,22 @@ blockquote {
 
     #services > h1 {
     	text-align: center;
+    }
+
+    #contactus {
+    	display: block !important;
+    }
+
+    #counter {
+    	display: none;
+    }
+
+    #groomers {
+    	display: block;
+    }
+
+    .groomer_header {
+    	font-size: 50px;
     }
 }
 
