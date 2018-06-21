@@ -72,8 +72,13 @@
 .bios {
 	text-align: left;
 	margin-left: 10%;
-	
 }
+
+.bios-2 {
+	text-align: left;
+	margin-left: 2%!important;
+}
+
 
 .name {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -108,7 +113,7 @@
 }
 
 .counter strong {
-	color: black;
+	color: #C51162;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -116,6 +121,7 @@
 .sort-destination-loader:after {
 	cursor: crosshair;
 }
+
 
 
 /*============================================*/
@@ -241,6 +247,10 @@
 	height: 40rem;
 }
 
+.box-height {
+	height: 30rem!important;
+}
+
 .more-one {
 	display: inline-block;
 }
@@ -249,6 +259,9 @@
 	display: inline-block;
 }
 
+.service-link:hover {
+	text-decoration: none;
+}
 
 
 /*=============================================*/
