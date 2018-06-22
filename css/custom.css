@@ -395,6 +395,36 @@ blockquote {
 	height: 10%;
 }
 
+/*============== Pricing =============*/
+
+
+#pricing {
+	margin-top: 20rem;
+	text-align: center;
+}
+
+#pricing h5 {
+	margin: 3rem;
+	font-size: 2.4rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#pricing .box-content {
+	height: 50rem;
+}
+
+.price-list {
+	list-style: none;
+	margin: auto;
+	padding-right: 4%;
+}
+
+.price-list li {
+	font-size: 2.5rem;
+	line-height: 3.3rem;
+}
+
+
 
 				/*MEDIA QUERRIES*/
 /*============================================*/
