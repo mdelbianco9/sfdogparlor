@@ -1,7 +1,7 @@
 /* Add here all your CSS customizations */
 /*Heading inder carousel*/
 .meet_groomers {
-	color: #E91E63;
+	color: ;
 	text-align: center;
 	letter-spacing: 4px;
 	word-spacing: 3px;
@@ -13,7 +13,7 @@
 
 .espanol {
 	text-align: center;
-	color: #E91E63;
+	color: ;
 	font-size: 30px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .navbutton a:hover {
-	background-color: #ad1757  !important;
+	background-color: rgba(255,255,255, .001)!important;
 }
 
 
@@ -58,7 +58,7 @@
 
 .groomer_header {
 	text-align: center;
-	color: #E91E63;
+	color: ;
 	font-size: 90px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 3px;
@@ -83,7 +83,7 @@
 .name {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 50px;
-	color: #E91E63;
+	color: ;
 	font-weight: 500;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .counter strong {
-	color: #C51162;
+	color: #ff1744;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .service_header {
-	color: #E91E63;
+	color: ;
 	font-size: 90px;
 	letter-spacing: 3px;
 	line-height: 30px;
@@ -274,7 +274,7 @@
 
 
 .testimonial_header {
-	color: #E91E63;
+	color: ;
 	margin-bottom: 0px;
 	text-align: center;
 }
@@ -309,7 +309,7 @@ blockquote {
 /*============================================*/
 
 .gallery_header {
-	color: #E91E63;
+	color: ;
 	font-size: 90px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 3px;
@@ -336,7 +336,7 @@ blockquote {
 }
 
 .contact_header {
-	color: #E91E63;
+	color: ;
 	font-size: 90px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 3px;
@@ -346,11 +346,11 @@ blockquote {
 }
 
 .heading-primary {
-	color: #E91E63;
+	color: ;
 }
 
 .footer1 {
-	background-color: #c31a62;
+	background-color: #ff1744;
 	width: 100%;
 	height: 70px;
 	padding-right: 0px !important;
@@ -372,8 +372,29 @@ blockquote {
 }
 
 .form1 {
-	background-color: rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .8);
+	padding: 2%;
 	border-radius: 10px;
+	width: 35%;
+	position: absolute;
+	right: 6%;
+	text-align: center;
+}
+
+.form1 img {
+	opacity: .8;
+}
+
+.form1 div h2 {
+	color: #373737;
+	font-weight: 500;
+	font-size: 32px;
+	margin: 15px 0px;
+}
+
+.form1 div h2 span {
+	font-weight: 700;
+	color: #ff1744;
 }
 
 .main1 {
@@ -388,7 +409,7 @@ blockquote {
 
 .callnow {
 	background-color: rgba(197, 17, 98, .9);
-	/*border: 2px solid #E91E63;*/
+	/*border: 2px solid ;*/
 	z-index: 3;
 	margin-top: 43rem;
 	width: 50%;
@@ -406,8 +427,10 @@ blockquote {
 #pricing h5 {
 	margin: 3rem;
 	font-size: 2.4rem;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: sans-serif;
+	text-transform: lowercase;
 }
+
 
 #pricing .box-content {
 	height: 50rem;
@@ -422,6 +445,11 @@ blockquote {
 .price-list li {
 	font-size: 2.5rem;
 	line-height: 3.3rem;
+}
+
+.addons .col-md-6 h3 {
+	color: #777;
+
 }
 
 
@@ -447,7 +475,7 @@ blockquote {
 @media screen and (max-width: 419px) and (min-width: 313px) {
 	body {
 		/*padding: 5%;*/
-		border: 15px solid #C51162;
+		border: 15px solid #ff1744;
 	}
    .main1 {
         display: block;

@@ -17,7 +17,7 @@ a:active {
 html .heading-primary,
 html .lnk-primary,
 html .text-color-primary {
-	color: #E91E63 !important;
+	color: #ff1744 !important;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -2491,7 +2491,7 @@ html[dir="rtl"] .tabs.tabs-vertical.tabs-right .nav-tabs li.active a:focus {
 .list.list-icons.list-icons-style-3 li a:first-child > .fa:first-child,
 .list.list-icons.list-icons-style-3 li > .icons:first-child,
 .list.list-icons.list-icons-style-3 li a:first-child > .icons:first-child {
-	background-color: #E91E63;
+	background-color: #ff1744;
 }
 
 .list.list-ordened li:before {
@@ -3706,7 +3706,7 @@ html .featured-box-primary .box-content {
 }
 
 html .featured-box-secondary .icon-featured {
-	background-color: #C51162;
+	background-color: #ff1744;
 }
 
 html .featured-box-secondary h4 {
