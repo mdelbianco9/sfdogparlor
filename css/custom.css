@@ -526,3 +526,49 @@ blockquote {
     }
 }
 
+@media screen and (max-width: 440px) and (min-width: 310px) {
+	.box-content img {
+		display: none;
+	}
+
+	.box-content ul li {
+		font-size: 14px !important;
+	}
+
+	#pricing {
+		margin-top: 0px !important;
+	}
+
+	#pricing .box-content {
+		text-align: left;
+	}
+
+	#pricing .box-content h5 {
+		font-weight: 400;
+		font-size: 14px;
+		margin: 5px;
+	}
+
+	#pricing .box-content ul li {
+		line-height: 18px;
+	}
+
+	#pricing .addons {
+		padding-left: 7%;
+		text-align: left;
+		position: relative;
+		top: -130px;
+	}
+
+	#pricing .addons h1 {
+		font-size: 25px;
+		font-weight: 500;
+		margin: 0px;
+	}
+
+	#pricing .addons h3 {
+		font-size: 14px;
+		
+		margin: 2px;
+	}
+}
