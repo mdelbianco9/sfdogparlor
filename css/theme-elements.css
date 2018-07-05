@@ -290,6 +290,7 @@ h6.text-shadow {
 @media (max-width: 479px) {
 	h2 {
 		line-height: 40px;
+		
 	}
 }
 
@@ -4527,7 +4528,7 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	padding: 30px 30px 10px 30px;
 	position: relative;
 	top: -1px;
-	overflow: scroll;
+	/*overflow: scroll;*/
 }
 
 .featured-box .learn-more {

@@ -416,7 +416,7 @@ blockquote {
 
 .callnow {
 	background-color: rgba(255,23,68, .9);
-	/*border: 2px solid ;*/
+	border: 2px solid #fff;
 	z-index: 3;
 	position: relative;
 	top: 38rem;
@@ -635,6 +635,10 @@ blockquote {
 		font-size: 14px;
 		
 		margin: 2px;
+	}
+
+	.featured-box .box-content {
+		overflow: scroll;
 	}
 }
 
