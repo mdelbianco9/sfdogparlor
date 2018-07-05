@@ -602,6 +602,7 @@ blockquote {
 
 	#pricing {
 		margin-top: 0px !important;
+		padding: 0px 14px;
 	}
 
 	#pricing .box-content {
