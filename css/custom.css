@@ -506,7 +506,30 @@ blockquote {
 
 }
 
+/* Specials */
 
+.cards-heading {
+	text-align: center;
+}
+
+.cards-heading img {
+	margin: 0px 5px;
+}
+
+.specials-header {
+	text-align: center;
+}
+
+.specials-header > h1 {
+	margin: 5% 5%;
+	font-size: 40px;
+}
+
+.specials-card {
+	border: 1px solid red;
+	
+
+}
 
 
 
