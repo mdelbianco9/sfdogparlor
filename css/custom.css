@@ -416,7 +416,7 @@ blockquote {
 
 .callnow {
 	background-color: rgba(255,23,68, .9);
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	z-index: 3;
 	position: relative;
 	top: 38rem;
