@@ -523,12 +523,32 @@ blockquote {
 .specials-header > h1 {
 	margin: 5% 5%;
 	font-size: 40px;
+	color: #5e8aa4;
 }
 
-.specials-card {
-	border: 1px solid red;
-	
+#special-products .col-md-4 .box-content h1 {
+	font-weight: 600;
+	font-size: 30px;
+	color: #fcd21f;
+}
 
+
+.cards-heading h3 {
+	color: #5e8aa4;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+
+
+#special-products .col-md-4 .box-content {
+	text-align: left;
+}
+
+#special-products .col-md-4 .box-content p {
+	font-size: 18px;
+	color: #8c8c8c;
+	line-height: 25px;
 }
 
 
