@@ -506,6 +506,14 @@ blockquote {
 
 }
 
+#pricing h5 span, h5 {
+	color: #424242;
+}
+
+.me-red {
+	color: #ff1744!important;
+}
+
 /* Specials */
 
 .cards-heading {
@@ -532,6 +540,10 @@ blockquote {
 	color: #fcd21f;
 }
 
+#special-products .box-content {
+	overflow: hidden;
+}
+
 
 .cards-heading h3 {
 	color: #ff1744;
@@ -550,6 +562,10 @@ blockquote {
 	font-size: 18px;
 	color: #8c8c8c;
 	line-height: 25px;
+}
+
+.mobile-cards {
+	display: none;
 }
 
 
@@ -684,6 +700,10 @@ blockquote {
 
 	.featured-box .box-content {
 		overflow: scroll;
+	}
+
+	.mobile-cards {
+		display: block;
 	}
 }
 
