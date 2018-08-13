@@ -629,9 +629,10 @@ section.container {
 	padding: 8px;
 	color: #fff;
 	border: 2px solid black;
-	margin: 10px 5px;
+	margin: 15px 5px!important;
 	transition: all .3s ease;
 	border-radius: 3px;
+	display: inline-block;
 }
 
 .contact-button:hover {
@@ -639,6 +640,45 @@ section.container {
 	color: black;
 	border-color: #ff1744;
 }
+
+.new-job {
+	font-size: 30;
+	font-weight: 600;
+	color: #fff!important;
+	margin-bottom: 10px;
+	background-color: #ff1744;
+	display: inline-block;
+	padding: 10px 13px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+
+.new-job a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.new-job:hover {
+	border: 2px solid #ff1744;
+	background-color: #fff;
+}
+
+.new-job:hover a {
+	color: #1e1e1e;
+	cursor: pointer;
+}
+
+.new-job-sub {
+	font-size: 15px;
+	color: #fff;
+	background-color: rgba(167,167,167, .8);
+	padding: 10px;
+	border-radius: 3px;
+}
+
 
 
 
